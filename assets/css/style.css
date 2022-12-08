@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* Logo & menu */
+
+#menu {
+    height: 165px;
+    width: 100%;
+    background-image: url(../images/Logo-banner.jpg);
+    float: left;
+    margin-top: 5px;
+    font-size: 110%;
+    letter-spacing: 2px;
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 90px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #FC7200;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
