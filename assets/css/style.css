@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -15,11 +15,10 @@ body {
 /* Logo & menu */
 
 #menu {
-    height: 165px;
+    height: 170px;
     width: 100%;
     background-image: url(../images/Logo-banner.jpg);
     float: left;
-    margin-top: 5px;
     font-size: 110%;
     letter-spacing: 2px;
     line-height: 75px;
@@ -41,6 +40,29 @@ body {
     border-bottom: 1px solid #FC7200;
 }
 
+#menu a:hover > i {
+    color: #FC7200;
+}
+
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* About Us */
+
+#mam-tor {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../images/mam-tor.jpg);
+    background-size: auto;
+}
+
+#about {
+    font-family: Lato, sans-serif;
+    font-size: 300%;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-left: 30px;
+    margin-top: 10px;
 }
