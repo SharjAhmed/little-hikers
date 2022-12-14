@@ -10,7 +10,7 @@ Attempted to add background video to Homepage but did not work out - footer icon
 I will need to look into this again to see how to fix - sticking with background image for now.
 
 
-Sitations 
+Citations 
 
 https://www.w3schools.com/howto/howto_css_parallax.asp - scrolling effect to be used on Favourite Routes page
 https://blog.hubspot.com/website/video-background-css - Used to try and understand how background videos work
