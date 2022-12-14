@@ -18,7 +18,7 @@ body {
     height: 170px;
     width: 100%;
     background-image: url(../images/Logo-banner.jpg);
-    float: left;
+    float: none;
     font-size: 110%;
     letter-spacing: 2px;
     line-height: 75px;
@@ -55,12 +55,14 @@ body {
     width: 100%;
     overflow: hidden;
     background-image: url(../images/mam-tor.jpg);
+    background-repeat: no-repeat;
     background-size: auto;
 }
 
 
+
 #about {
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 30px;
     color: #fff;    
     text-align: center;
@@ -68,9 +70,35 @@ body {
     width: 600px;
     height: 450px;
 
-    padding: 40px 10px;
+    padding: 50px 10px;
 
     background-color: rgba(58, 58, 58, .7);
 
     position: absolute;
+}
+
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+.social-networks a:hover > i {
+    color: #FC7200;
 }
