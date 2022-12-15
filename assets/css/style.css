@@ -57,6 +57,7 @@ body {
     background-image: url(../images/mam-tor.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: center;
 }
 
 #about {
@@ -73,6 +74,51 @@ body {
     background-color: rgba(58, 58, 58, .7);
 
     position: absolute;
+}
+
+/* Favourite Routes */
+
+#fav-routes {
+    color: #F5F1ED;
+}
+
+.section {
+    text-align: center;
+}
+
+#main-header {
+    color: #3a3a3a;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.route-list {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.route-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.route-list a:hover {
+    border-bottom: 1px solid #FC7200;
+    color: #FC7200;
+}
+
+.list li {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin: 1%;
+}
+
+#damflask {
+    background-image: url(../images/damflask-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Footer */
