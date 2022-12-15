@@ -95,7 +95,10 @@ body {
 
 .route-list {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 3%;
+    padding-top: 3%;
+    font-weight: 130%;
+    font-size: 170%;
 }
 
 .route-list a {
@@ -115,10 +118,28 @@ body {
     margin: 1%;
 }
 
+.list p {
+    font-size: 150%;
+
+    max-width: 500px;
+
+    background-color: rgba(58, 58, 58, .7);
+    
+    padding: 10px;
+
+    margin-right: 20%;
+
+    bottom: 10%;
+    right: 5%;
+
+    position: absolute;
+}
+
 #damflask {
     background-image: url(../images/damflask-2.png);
     background-repeat: no-repeat;
     background-position: center;
+    height: 720px;
 }
 
 /* Footer */
