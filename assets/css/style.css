@@ -10,6 +10,11 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* Logo & menu */
@@ -18,6 +23,7 @@ body {
     height: 170px;
     width: 100%;
     background-image: url(../images/Logo-banner.jpg);
+    background-repeat: no-repeat;
     float: none;
     font-size: 110%;
     letter-spacing: 2px;
@@ -26,7 +32,6 @@ body {
 
 #menu li {
     float: right;
-    list-style-type: none;
     margin-right: 30px;
     margin-top: 90px;
 }
@@ -78,69 +83,120 @@ body {
 
 /* Favourite Routes */
 
-#fav-routes {
-    color: #F5F1ED;
-}
-
-.section {
+main {
     text-align: center;
 }
 
-#main-header {
-    color: #3a3a3a;
-    text-align: center;
-    margin-top: 30px;
-    padding: 5px;
+section {
+    align-items: center;
+    justify-content: center;
 }
 
-.route-list {
-    text-align: center;
-    margin-top: 3%;
-    padding-top: 3%;
-    font-weight: 130%;
-    font-size: 170%;
+.title {
+    font-size: 400%;
+    padding: 30px;
 }
 
-.route-list a {
-    text-decoration: none;
-    color: inherit;
-}
+.parallax {
+    width: 100%;
 
-.route-list a:hover {
-    border-bottom: 1px solid #FC7200;
-    color: #FC7200;
-}
-
-.list li {
-    text-align: center;
-    display: inline-block;
-    list-style-type: none;
-    margin: 1%;
-}
-
-.list p {
-    font-size: 150%;
-
-    max-width: 500px;
-
-    background-color: rgba(58, 58, 58, .7);
-    
-    padding: 10px;
-
-    margin-right: 20%;
-
-    bottom: 10%;
-    right: 5%;
-
-    position: absolute;
-}
-
-#damflask {
-    background-image: url(../images/damflask-2.png);
-    background-repeat: no-repeat;
+    background-image: url("../images/damflask-2.png");
+    background-attachment: fixed;
     background-position: center;
-    height: 720px;
+    background-size: cover;
+  
+    min-height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 200%;
+    color: #fff;
+  }
+
+  .buffer {
+        width: 100%;
+        height: 930px;
+        background-image: url(../images/damflask-map.png);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center;
+        background-size: contain;
+        padding: 30px;
+  }
+
+  .parallax2 {
+    width: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    min-height: 100vh;
+
+    background-image: url(../images/Broomhead-2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 200%;
+    color: #fff;
+
+    gap: 1.6em;
+  }
+
+  .buffer2 {
+    width: 100%;
+    height: 930px;
+    background-image: url(../images/broomhead-map.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    background-size: contain;
+    padding: 30px;
 }
+
+.parallax3 {
+
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    min-height: 100vh;
+
+    background-image: url(../images/redmires.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 200%;
+    color: #fff;
+
+    gap: 1.6em;
+  }
+
+  .buffer3 {
+    width: 100%;
+    height: 930px;
+    background-image: url(../images/redmire-map.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    background-size: contain;
+    padding: 30px;
+}
+
 
 /* Footer */
 
