@@ -23,6 +23,7 @@ li {
     height: 170px;
     width: 100%;
     background-image: url(../images/Logo-banner.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     float: none;
     font-size: 110%;
@@ -117,7 +118,7 @@ section {
   }
 
   .buffer {
-        width: 100%;
+        width: 90%;
         height: 930px;
         background-image: url(../images/damflask-map.png);
         background-repeat: no-repeat;
@@ -152,7 +153,7 @@ section {
   }
 
   .buffer2 {
-    width: 100%;
+    width: 90%;
     height: 930px;
     background-image: url(../images/broomhead-map.png);
     background-repeat: no-repeat;
@@ -163,8 +164,8 @@ section {
 }
 
 .parallax3 {
-
     width: 100%;
+
     flex-direction: row;
     flex-wrap: wrap;
   
@@ -187,7 +188,7 @@ section {
   }
 
   .buffer3 {
-    width: 100%;
+    width: 90%;
     height: 930px;
     background-image: url(../images/redmire-map.png);
     background-repeat: no-repeat;
