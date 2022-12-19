@@ -198,6 +198,67 @@ section {
     padding: 30px;
 }
 
+.description {
+    background-color: rgba(58, 58, 58, .7);
+}
+
+/* Sign Up Form */
+
+.form {
+    clear: left;
+    background: url("../images/family-walk.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(58, 58, 58, .7);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color:#fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+.text-input:hover {
+    border-color: #FC7200;
+}
+
+.join-button {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #FC7200;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #3a3a3a;
+    color: #FC7200;
+}
 
 /* Footer */
 
