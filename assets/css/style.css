@@ -230,6 +230,7 @@ img {
   
   img:hover {
     box-shadow: 0 0 2px 2px #FC7200;
+    opacity: 0.9;
   }
   
 /* Sign Up Form */
