@@ -111,7 +111,7 @@ section {
 .parallax {
     width: 100%;
 
-    background-image: url("../images/damflask-2.png");
+    background-image: url("../images/damflask.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -146,7 +146,7 @@ section {
   
     min-height: 100vh;
 
-    background-image: url(../images/Broomhead-2.png);
+    background-image: url(../images/broomhead.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -181,7 +181,7 @@ section {
   
     min-height: 100vh;
 
-    background-image: url(../images/redmires.png);
+    background-image: url(../images/redmires.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -200,7 +200,7 @@ section {
   .buffer3 {
     width: 90%;
     height: 930px;
-    background-image: url(../images/redmire-map.png);
+    background-image: url(../images/redmires-map.png);
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: center;
@@ -209,9 +209,29 @@ section {
 }
 
 .description {
-    background-color: rgba(58, 58, 58, .7);
+    margin-top: 1%;
+    background-color: rgba(58, 58, 58, .1);
 }
 
+.gallery {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 10px 10px;
+    padding: 3%;
+    width: 250px;
+    height: 250px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 2px #FC7200;
+  }
+  
 /* Sign Up Form */
 
 .form {
