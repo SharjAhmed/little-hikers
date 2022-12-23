@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
@@ -19,18 +18,21 @@ li {
 
 /* Logo & menu */
 
-#menu {
+nav {
     height: 170px;
     width: 100%;
     background-image: url(../images/Logo-banner.jpg);
+    background-color: #ececec;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#menu {
     float: none;
     font-size: 150%;
     letter-spacing: 2px;
     line-height: 100px;
     top: 0;
-    
 }
 
 #menu li {
@@ -39,7 +41,7 @@ li {
     margin-top: 35px;
 }
 
-#menu a {
+#menu li a {
     text-decoration: none;
     color: inherit;
 }
@@ -50,6 +52,10 @@ li {
 
 #menu a:hover > i {
     color: #FC7200;
+}
+
+#menu img {
+    height: 100%;
 }
 
 .active {
@@ -66,30 +72,27 @@ li {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
+    
 }
 
 #mam-tor h2 {
-    margin-top: 100px;
-    margin-left: 30px;
-    color: #fff;    
+    margin-top: 10%;
+    margin-left: 3%;
+    color: #fff;
     text-align: center;
-
-    font-size: 500%;
-
-    width: 600px;
-    height: 450px;
-
-    padding: 50px 10px;
-
+    font-size: 350%;
+    width: 30%;
+    height: 25%;
+    padding: 1rem;
     background-color: rgba(58, 58, 58, .7);
-
     position: absolute;
+    justify-content: center;
 }
 
 #about {
     text-align: center;
     margin: 1% 3%;
-    font-size: 130%;
+    font-size: 2rem;
 }
 
 /* Favourite Routes */
@@ -142,7 +145,6 @@ section {
     width: 100%;
 
     flex-direction: row;
-    flex-wrap: wrap;
   
     min-height: 100vh;
 
@@ -177,7 +179,6 @@ section {
     width: 100%;
 
     flex-direction: row;
-    flex-wrap: wrap;
   
     min-height: 100vh;
 
@@ -210,16 +211,21 @@ section {
 
 .description {
     margin-top: 1%;
-    background-color: rgba(58, 58, 58, .1);
+    background-color: rgba(58, 58, 58, .4);
+    padding: 1rem;
+    max-width: 90%;
 }
 
 .gallery {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
     max-width: 100%;
+    padding: 2rem;
 }
 
-img {
+/* code seen on w3schools.com */ 
+main img {
     border: 1px solid #ddd;
     border-radius: 50%;
     margin: 10px 10px;
@@ -228,7 +234,7 @@ img {
     height: 250px;
   }
   
-  img:hover {
+  main img:hover {
     box-shadow: 0 0 2px 2px #FC7200;
     opacity: 0.9;
   }
@@ -246,18 +252,18 @@ img {
 .signup-form {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    margin: 150px 10% 0 0;
+    margin: 10% 0 0;
     color: #fff;
     background-color: rgba(58, 58, 58, .7);
-    max-width: 400px;
+    max-width: 30%;
     position: absolute;
     left: 10%;
-    padding: 30px;
+    padding: 1rem;
 }
 
 .signup-form > h2 {
     color:#fafafa;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .text-input {
@@ -277,7 +283,7 @@ img {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: #FC7200;
-    margin-top: 20px;
+    margin-top: 10%;
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
@@ -318,3 +324,105 @@ footer {
 .social-networks a:hover > i {
     color: #FC7200;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    #menu {
+        float: right;
+        letter-spacing: 2px;
+        top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        line-height: 50px;
+    }
+
+    #menu li {
+        margin-top: 5px;
+    }
+
+   #mam-tor h2 {
+    font-size: 300%;
+   }
+
+   #about {
+    padding: 2rem;
+   }
+
+   .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    #menu {
+        float: right;
+        letter-spacing: 2px;
+        top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        line-height: 50px;
+    }
+
+    #menu li {
+        margin-top: 5px;
+    }
+
+    #mam-tor h2 {
+        font-size: 225%;
+       }
+    
+       #about {
+        padding: 2rem;
+       }
+
+       .description {
+        font-size: smaller;
+       }
+    
+       .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+       }
+
+       .gallery img {
+        height: 150px;
+        width: 150px;
+       }
+}
+
+@media screen and (max-width: 600px) {
+    #menu {
+        float: right;
+        letter-spacing: 2px;
+        top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        line-height: 50px;
+    }
+
+    #menu li {
+        margin-top: 5px;
+    }
+
+    #mam-tor h2 {
+        font-size: 190%;
+       }
+    
+       #about {
+        padding: 2rem;
+       }
+
+       .description {
+        font-size: smaller;
+       }
+    
+       .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+       }
+
+       .gallery img {
+        height: 150px;
+        width: 150px;
+       }  
+}
+
