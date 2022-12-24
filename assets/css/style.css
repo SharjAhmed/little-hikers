@@ -80,7 +80,7 @@ nav {
     margin-left: 3%;
     color: #fff;
     text-align: center;
-    font-size: 350%;
+    font-size: 325%;
     width: 30%;
     height: 25%;
     padding: 1rem;
@@ -251,7 +251,7 @@ main img {
 
 .signup-form {
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 1000;
     margin: 10% 0 0;
     color: #fff;
     background-color: rgba(58, 58, 58, .7);
@@ -281,7 +281,7 @@ main img {
 
 .join-button {
     font-family: Lato, sans-serif;
-    font-weight: 400;
+    font-weight: 1000;
     color: #FC7200;
     margin-top: 10%;
     border-radius: 2px;
@@ -311,6 +311,7 @@ footer {
 
 .social-networks > li {
     display: inline;
+    padding: 0 5%;
 }
 
 .social-networks i {
@@ -325,7 +326,7 @@ footer {
     color: #FC7200;
 }
 
-
+/* Media queries for smaller screens */
 
 @media screen and (max-width: 992px) {
     #menu {
@@ -342,7 +343,8 @@ footer {
     }
 
    #mam-tor h2 {
-    font-size: 300%;
+    font-size: 255%;
+    padding-top: 3%;
    }
 
    #about {
@@ -424,5 +426,9 @@ footer {
         height: 150px;
         width: 150px;
        }  
+
+       .signup-form {
+        max-width: 40%;
+       }
 }
 
