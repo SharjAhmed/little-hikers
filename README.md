@@ -13,8 +13,8 @@ It provides a list of 3 popular routes that are perfect for young families, and 
 * [Testing](#testing)
 * [Roadblocks and difficulties](#roadblocks-and-difficulties)
 * [Bugs](#bugs)
-* [Citations](#citations)
 * [Validator Testing](#validator-testing)
+* [Citations](#citations)
 
 ## Features
 * Navigation bar
@@ -24,7 +24,6 @@ It provides a list of 3 popular routes that are perfect for young families, and 
     - Banner is a slight off-white and the black text stands out and is clearly readable.
     - Page links, when hovered over, turn orange - a theme that is consistant throughout the site. 
 
-
 ![Alt text](assets/images/navigation.jpg)
 
 * Main Image 
@@ -33,8 +32,40 @@ It provides a list of 3 popular routes that are perfect for young families, and 
 ![Alt text](assets/images/main-image.jpg)
 
 * About Us
+    - A welcoming paragraph explaining the background of why Little Hikers was created. 
+    - Kept black text on white background to keep homepage nice and simple.
 
+![Alt text](assets/images/about-us.jpg)
 
+* Our Favourite Routes
+    - This page is designed to show visitors 3 routes that are a good starting point if they wish to start walking with their families.
+    - Parralex scrolling effect has been used to show each route, with a background image behind text.
+    - Info key included between route header and description which shows:
+        - Distance of route
+        - Rough time taken to walk route
+        - Icon key which shows who the route is suibtable for:
+            - Walking
+            - Prams
+            - Bicycles
+            - Dogs
+    - Text describes the route, with main features, a low-down explination of what to expect when walking the route and a difficulty rating.
+    - Easy level routes chosen to keep in theme of website of walking routes for families with yung children.
+    - Below description text is an image gallery set out in a grid row, with a circle border - each image is clickable and full size image opens in a new tab.
+    - Borders highlight orange when image is hovered over to keep in theme of the site. 
+    - Below each description section is a "buffer" section which includes a map of the route which shows the layout and terrain of each route.
+
+![Alt text](assets/images/fav-routes.jpg)
+
+* Sign Up
+    - Simple sign up page which a form placed over a background image.
+    - Form follows site theme of white text over semi-transparent black background.
+    - Submit button also follows the black and orange theme of the site.
+    - Colours invert when hovering over submit button. 
+    - Form field are formatted correctly and error when incorrect formatting is used or if there are any blank fields.
+
+![Alt text](assets/images/sign-up.jpg)
+![Alt text](assets/images/form-error2.jpg)
+![Alt text](assets/images/form-error.jpg)
 
 ## Technologies
 Project is created with:
@@ -53,23 +84,17 @@ Project is created with:
 
 ## Bugs
 - ### Solved bugs
-- ### Icons
-    - Icons for Home in header & Twiiter in footer weren't loading correctly
-    - Tested my code through W3C HTML checker
-    - Showed me that this was because I had put the closing </i> & </a> the wrong way round 
-- ### Styling for smaller screens
-    - Menu items were showing in reverse order when I styled as flex-direction: column
-    - After researching more about flex-direction, I found that flex-direction: column-reverse can be used to solve this issue.
-
-    - I was not able to make the image gallery items go into columns when styling for a smaller screen
-    - After meeting with my mentor, I researched display types and found that grid would be better than flex - this solved the issue as I was able to put items into columns to make the page more user friendly.  
-
-## Citations 
-
-* https://www.w3schools.com/howto/howto_css_parallax.asp - scrolling effect to be used on Favourite Routes page
-* https://blog.hubspot.com/website/video-background-css - used to try and understand how background videos work - did not end up using
-* https://www.w3schools.com/css/css_rwd_mediaqueries.asp - to help understand media query break points
-* https://thecodebeast.com/change-order-of-list-items-via-css/ - to help understand flex-direction 
+    - ### Icons
+        - Icons for Home in header & Twiiter in footer weren't loading correctly
+        - Tested my code through W3C HTML checker
+        - Showed me that this was because I had put the closing </i> & </a> the wrong way round 
+    - ### Styling for smaller screens
+        - Menu items were showing in reverse order when I styled as flex-direction: column
+        - After researching more about flex-direction, I found that flex-direction: column-reverse can be used to solve this issue.
+        - I was not able to make the image gallery items go into columns when styling for a smaller screen
+        - After meeting with my mentor, I researched display types and found that grid would be better than flex - this solved the issue as I was able to put items into columns to make the page more user friendly. 
+- ### Unfixed bugs
+    - No unfixed bugs
 
 ## Validator Testing
 
@@ -77,3 +102,13 @@ Project is created with:
     - No errors found when passing through the official W3C validator   
 - ### CSS
     - No errors found when passing through the official (Jigsaw) validator  
+    
+## Citations 
+
+* https://www.w3schools.com/howto/howto_css_parallax.asp - scrolling effect to be used on Favourite Routes page
+* https://blog.hubspot.com/website/video-background-css - used to try and understand how background videos work - did not end up using
+* https://www.w3schools.com/css/css_rwd_mediaqueries.asp - to help understand media query break points
+* https://thecodebeast.com/change-order-of-list-items-via-css/ - to help understand flex-direction 
+* Footer code was taken from the CI Love Running Project.
+* Images taken from AllTrails
+* Maps taken from Yorkshire Water
