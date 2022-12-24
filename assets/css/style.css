@@ -21,7 +21,7 @@ li {
 nav {
     height: 170px;
     width: 100%;
-    background-image: url(../images/Logo-banner.jpg);
+    background-image: url(../images/logo-banner.jpg);
     background-color: #ececec;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,6 +207,10 @@ section {
     background-position: center;
     background-size: contain;
     padding: 30px;
+}
+
+ul.list.description {
+    font-weight: 1000;
 }
 
 .description {
