@@ -93,6 +93,8 @@ Project is created with:
         - After researching more about flex-direction, I found that flex-direction: column-reverse can be used to solve this issue.
         - I was not able to make the image gallery items go into columns when styling for a smaller screen
         - After meeting with my mentor, I researched display types and found that grid would be better than flex - this solved the issue as I was able to put items into columns to make the page more user friendly. 
+        - Difficulty with "buffer" sections when styling for 320px screens - height was too much
+        - Solved by creating new class that covered all three buffer sections to make the height standard accross all three. 
 - ### Unfixed bugs
     - No unfixed bugs
 

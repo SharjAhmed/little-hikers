@@ -329,7 +329,7 @@ footer {
 
 /* Media queries for smaller screens */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1280px) {
     #menu {
         float: right;
         letter-spacing: 2px;
