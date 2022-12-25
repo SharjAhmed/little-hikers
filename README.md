@@ -5,7 +5,7 @@ It is designed to help parents who wish to start taking their children to walkin
 
 It provides a list of 3 popular routes that are perfect for young families, and a sign up page if people wish to join the group's mailing list.
 
-
+![Alt text](assets/images/responsive.jpg)
 
 ## Table of contents
 * [Features](#features)
