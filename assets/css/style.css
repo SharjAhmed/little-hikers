@@ -18,7 +18,7 @@ li {
 
 /* Logo & menu */
 
-nav {
+header {
     height: 170px;
     width: 100%;
     background-image: url(../images/logo-banner.jpg);
@@ -95,7 +95,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Favourite Routes */
+/* Top Routes */
 
 main {
     text-align: center;
@@ -128,20 +128,17 @@ section {
 
     font-size: 200%;
     color: #fff;
-  }
+}
 
-  .buffer {
-        width: 90%;
-        height: 930px;
-        background-image: url(../images/damflask-map.png);
-        background-repeat: no-repeat;
-        background-color: #fff;
-        background-position: center;
-        background-size: contain;
-        padding: 30px;
-  }
+.buffer {
+    background-image: url(../images/damflask-map.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    background-size: contain;
+}
 
-  .parallax2 {
+.parallax2 {
     width: 100%;
 
     flex-direction: row;
@@ -162,17 +159,14 @@ section {
     color: #fff;
 
     gap: 1.6em;
-  }
+}
 
-  .buffer2 {
-    width: 90%;
-    height: 930px;
+.buffer2 {
     background-image: url(../images/broomhead-map.png);
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: center;
     background-size: contain;
-    padding: 30px;
 }
 
 .parallax3 {
@@ -196,16 +190,19 @@ section {
     color: #fff;
 
     gap: 1.6em;
-  }
+}
 
-  .buffer3 {
-    width: 90%;
-    height: 930px;
+.buffer3 {
     background-image: url(../images/redmires-map.png);
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: center;
     background-size: contain;
+}
+
+.buffer4 {
+    width: 90%;
+    height: 930px;
     padding: 30px;
 }
 
@@ -346,17 +343,17 @@ footer {
         margin-top: 5px;
     }
 
-   #mam-tor h2 {
-    font-size: 255%;
-    padding-top: 3%;
-   }
+    #mam-tor h2 {
+        font-size: 255%;
+        padding-top: 3%;
+    }
 
    #about {
-    padding: 2rem;
+        padding: 2rem;
    }
 
    .gallery {
-    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
    }
 }
 
@@ -376,24 +373,24 @@ footer {
 
     #mam-tor h2 {
         font-size: 225%;
-       }
+    }
     
        #about {
         padding: 2rem;
-       }
+    }
 
        .description {
         font-size: smaller;
-       }
+    }
     
        .gallery {
         grid-template-columns: 1fr 1fr 1fr;
-       }
+    }
 
        .gallery img {
         height: 150px;
         width: 150px;
-       }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -412,27 +409,114 @@ footer {
 
     #mam-tor h2 {
         font-size: 190%;
-       }
+    }
     
-       #about {
+    #about {
         padding: 2rem;
-       }
+    }
 
-       .description {
+    .description {
         font-size: smaller;
-       }
+    }
     
-       .gallery {
+    .gallery {
         grid-template-columns: 1fr 1fr 1fr;
-       }
+    }
 
-       .gallery img {
+    .gallery img {
         height: 150px;
         width: 150px;
-       }  
+    }  
 
-       .signup-form {
+    .signup-form {
         max-width: 40%;
-       }
+    }
 }
 
+@media screen and (max-width: 320px) {
+    #menu {
+        letter-spacing: 1.5px;
+        top: 0;
+        display: inline-block;
+        line-height: 50px;
+        padding-top: 50%;
+        font-size: 0.6rem;
+        background-image: url(../images/logo-banner2.jpg);
+        width: 100%;
+    }
+
+    #menu ul {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    #mam-tor {
+        height: 500px;
+    }
+
+    #mam-tor h2 {
+        font-size: 130%;
+        padding-top: 7%;
+    }
+    
+    #about h2 {
+        font-size: 150%;
+       }
+   
+    #about {
+        padding: 2rem;
+        font-size: 100%;
+    }
+
+    .title {
+        font-size: 150%;
+        margin-top: 15%;
+        padding: 30px;
+    }
+
+    .description {
+        font-size: medium;
+    }
+    
+    .parallax .parralex2 .parralex3 {
+        width: 100%;
+        background-image: url(../images/damflask.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 100%;
+        color: #fff;
+    }
+    
+    .buffer4 {
+        height: 400px;
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery img {
+        height: 100px;
+        width: 100px;
+    }  
+
+    .signup-form {
+        max-width: 40%;
+        margin-top: 40%;
+    }
+
+    .join-button {
+        margin-top: 10%;
+        padding: 15px 10px;
+        font-size: 80%;
+        max-width: 100%;
+    }
+}
