@@ -82,7 +82,7 @@ header {
     text-align: center;
     font-size: 325%;
     width: 30%;
-    height: 25%;
+    height: auto;
     padding: 1rem;
     background-color: rgba(58, 58, 58, .7);
     position: absolute;
@@ -345,7 +345,6 @@ footer {
 
     #mam-tor h2 {
         font-size: 255%;
-        padding-top: 3%;
     }
 
    #about {
