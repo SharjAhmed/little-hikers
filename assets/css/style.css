@@ -21,7 +21,7 @@ li {
 header {
     height: 170px;
     width: 100%;
-    background-image: url(../images/logo-banner.jpg);
+    background-image: url(../images/logo-banner2.jpg);
     background-color: #ececec;
     background-size: cover;
     background-repeat: no-repeat;
@@ -439,15 +439,17 @@ footer {
         top: 0;
         display: inline-block;
         line-height: 50px;
-        padding-top: 50%;
+        padding-top: 35%;
         font-size: 0.6rem;
-        background-image: url(../images/logo-banner2.jpg);
         width: 100%;
     }
 
-    #menu ul {
-        margin-top: 5px;
-        margin-left: 20px;
+    #menu li {
+        float: right;
+        margin-right: 30px;
+        font-size: 0.6rem;
+        font-weight: 1000;
+        letter-spacing: 1px;
     }
 
     #mam-tor {
@@ -455,8 +457,7 @@ footer {
     }
 
     #mam-tor h2 {
-        font-size: 130%;
-        padding-top: 7%;
+        font-size: 110%;
     }
     
     #about h2 {
@@ -470,7 +471,6 @@ footer {
 
     .title {
         font-size: 150%;
-        margin-top: 15%;
         padding: 30px;
     }
 
