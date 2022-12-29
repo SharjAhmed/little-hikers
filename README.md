@@ -14,6 +14,7 @@ It provides a list of 3 popular routes that are perfect for young families, and 
 * [Roadblocks and difficulties](#roadblocks-and-difficulties)
 * [Bugs](#bugs)
 * [Validator Testing](#validator-testing)
+* [Deployment](#deployment)
 * [Citations](#citations)
 
 ## Features
@@ -103,7 +104,16 @@ Project is created with:
 - ### HTML
     - No errors found when passing through the official W3C validator   
 - ### CSS
-    - No errors found when passing through the official (Jigsaw) validator  
+    - No errors found when passing through the official (Jigsaw) validator 
+- ### Accessibility
+    - I can confirm that all text, fonts and colours are easily readable and accessible by running it through Lighthouse in devtools
+
+![Alt Text](assets/images/lighthouse.jpg) 
+
+## Deployment
+
+* This site has been delpyed to Github Pages
+    - link can be found here - [Little Hikers](https://sharjahmed.github.io/little-hikers/)
     
 ## Citations 
 
@@ -111,6 +121,6 @@ Project is created with:
 * https://blog.hubspot.com/website/video-background-css - used to try and understand how background videos work - did not end up using
 * https://www.w3schools.com/css/css_rwd_mediaqueries.asp - to help understand media query break points
 * https://thecodebeast.com/change-order-of-list-items-via-css/ - to help understand flex-direction 
-* Footer code was taken from the CI Love Running Project.
-* Images taken from AllTrails
-* Maps taken from Yorkshire Water
+* Footer code was taken from the [CI Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+* Images taken from [AllTrails](https://www.alltrails.com/en-gb/parks/england/staffordshire/peak-district-national-park)
+* Maps taken from [Yorkshire Water](https://www.yorkshirewater.com/things-to-do/walks/)
