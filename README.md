@@ -95,10 +95,10 @@ Project is created with:
         - I was not able to make the image gallery items go into columns when styling for a smaller screen
         - After meeting with my mentor, I researched display types and found that grid would be better than flex - this solved the issue as I was able to put items into columns to make the page more user friendly. 
         - Difficulty with "buffer" sections when styling for 320px screens - height was too much
-        - Solved by creating new class that covered all three buffer sections to make the height standard accross all three. 
+        - Solved by creating new class that covered all three buffer sections to make the height standard accross all three
     - ### Images in gallery on Top Routes page
         - The gallery images on the Top Routes page were not loading in Github Pages but were loading in the local ports in gitpod code
-        - Updated href to full pathway ("../little-hikers/assets/images/damflask-2.jpg" instead of "/assets/images/damflask-2.jpg")
+        - Updated href to full pathway ("assets/images/damflask-2.jpg" instead of "/assets/images/damflask-2.jpg") to fix the issue
 - ### Unfixed bugs
     - No unfixed bugs
 
